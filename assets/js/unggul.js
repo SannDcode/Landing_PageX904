@@ -1,3 +1,11 @@
+function getGreeting() {
+  const hours = new Date().getHours();
+  if (hours >= 5 && hours < 11) return "pagi";
+  if (hours >= 11 && hours < 15) return "siang";
+  if (hours >= 15 && hours < 18) return "sore";
+  return "malam";
+}
+
 function wassup() {
   const nama = prompt("Masukkan Nama Anda:");
   if (nama === null || nama.trim() === "") {
