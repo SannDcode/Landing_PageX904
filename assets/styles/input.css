@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "tailwindcss";
+@import url('https://fonts.cdnfonts.com/css/cyberend');
+@theme {
+  --font-faq: 'Cyberend', sans-serif;
+  --breakpoint-xs: 30rem;
+}
+
+:root {
+    --font-family-nav: "Jersey 10";
+    --primary-color: #730d03;
+    --button-color: #730D03;
+    --button-hover: #590A03;
+    --button-active: #520a03;
+    --btn-konsul: #F2B807;
+    --btn-hover: #e6ac00;
+    --btn-active: #ba8c00;
+    --main-text-color: ;
+    --dart: #D9D9D9;
+    --textHeader: "Poppins";
+    --textColor: #F5F5F5;
+    --waveGradientTop: linear-gradient(to bottom, #4f1c1c, transparent);
+    --waveGradientFull: linear-gradient(to top, #4f1c1c, transparent 20%),linear-gradient(to right, #4f1c1c, transparent 5%),linear-gradient(to left, #4f1c1c, transparent 5%);
+    --waveGradientBottom: linear-gradient(to top, #730D03, transparent 20%);
+    --bgGif1: url('../img/gif/bg-unggul2.gif');
+    --bgGif2: url('../img/gif/bg-unggul2PC.gif');
+    --unggul: #4A1C1C;
+    --borderColorUnggul: #DADADA;
+    --bgUmggul: #984848;
+    --itemUnggul: #3c0d03;
+    --itemUnggulIcon: #2d0a02;
+    --cntcUnggul: #c6c4c4;
+}
+
+.bg-full {
+      background: url("../../opsional/Group-5.svg") center center / cover no-repeat;
+      /* ↑ cover = selalu nutup full layar walaupun kepotong */
+      width: 100%;
+      height: 100vh; /* 1 halaman penuh */
+    }
+
+.transparentt {
+  background-color: rgba(115, 13, 3, 0.5);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.showtopp {
+  display: flex;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+  justify-content: center;
+}

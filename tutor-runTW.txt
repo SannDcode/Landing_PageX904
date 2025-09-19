@@ -1,0 +1,4 @@
+ketik ctrl + shift + ` untuk membuka terminal
+ketik npx @tailwindcss/cli -i ./assets/styles/input.css -o ./assets/styles/style.css --watch
+done
+silahkan ngoding aja di index.html
